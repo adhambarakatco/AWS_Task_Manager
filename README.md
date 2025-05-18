@@ -17,6 +17,9 @@
 
 The **Task Management System** is a web-based application designed and implemented using **Amazon Web Services (AWS)**. The system allows users to sign up, log in, create tasks, update task statuses, attach files to tasks, and receive notifications for task updates. This application utilizes several AWS services, including **RDS**, **Lambda**, **API Gateway**, **CloudWatch**, **SQS**, **Cognito**, and **S3** to provide a fully functional, scalable, and secure task management solution.
 
+## **AWS Architecture Diagram**
+![Architecture](https://github.com/user-attachments/assets/37226259-95c4-40a2-b319-8c63accd78ce)
+
 ## **Frontend Overview**
 
 The **frontend** of the **Task Management System** is built using **Next.js** and **TypeScript**. It provides a dynamic, responsive, and user-friendly interface for interacting with the backend services deployed on AWS. The frontend enables users to securely sign up, log in, create and manage tasks, and attach files, with a smooth and modern user experience.
