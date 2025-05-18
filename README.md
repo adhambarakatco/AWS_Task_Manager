@@ -1,4 +1,6 @@
 # **Task Management System on AWS**
+## Deployed Website Link: 
+https://ec2-3-77-233-142.eu-central-1.compute.amazonaws.com/dashboard/tasks
 # Landing page 
 ![image](https://github.com/user-attachments/assets/fa9a5695-0f59-4de3-b506-d1d316fd4b7c)
 ![image](https://github.com/user-attachments/assets/bd0c9119-9e56-4e1d-bf7a-e262c6b44be4)
