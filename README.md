@@ -1,11 +1,16 @@
 # **Task Management System on AWS**
-
+# Landing page 
 ![image](https://github.com/user-attachments/assets/fa9a5695-0f59-4de3-b506-d1d316fd4b7c)
 ![image](https://github.com/user-attachments/assets/bd0c9119-9e56-4e1d-bf7a-e262c6b44be4)
+# Sign up
 ![image](https://github.com/user-attachments/assets/467043e2-fda1-4e73-ab3c-4769f9847208)
+# Dashboard
 ![image](https://github.com/user-attachments/assets/5849054c-b482-4d37-8ce9-0381996c8abe)
+# Create New Task
 ![image](https://github.com/user-attachments/assets/2df55d80-ff52-4a53-829b-0a54ca6cd896)
+# Task Details
 ![image](https://github.com/user-attachments/assets/a1f81727-2500-4ceb-aa3a-3a44da20c659)
+# Edit Task
 ![image](https://github.com/user-attachments/assets/e73c1bcb-3260-4df1-acb8-c4d43f5b153f)
 
 ## **Project Overview**
