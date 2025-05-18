@@ -1,16 +1,37 @@
 # **Task Management System on AWS**
 
 ![image](https://github.com/user-attachments/assets/fa9a5695-0f59-4de3-b506-d1d316fd4b7c)
+![image](https://github.com/user-attachments/assets/bd0c9119-9e56-4e1d-bf7a-e262c6b44be4)
 ![image](https://github.com/user-attachments/assets/467043e2-fda1-4e73-ab3c-4769f9847208)
 ![image](https://github.com/user-attachments/assets/5849054c-b482-4d37-8ce9-0381996c8abe)
 ![image](https://github.com/user-attachments/assets/2df55d80-ff52-4a53-829b-0a54ca6cd896)
 ![image](https://github.com/user-attachments/assets/a1f81727-2500-4ceb-aa3a-3a44da20c659)
 ![image](https://github.com/user-attachments/assets/e73c1bcb-3260-4df1-acb8-c4d43f5b153f)
 
-
 ## **Project Overview**
 
 The **Task Management System** is a web-based application designed and implemented using **Amazon Web Services (AWS)**. The system allows users to sign up, log in, create tasks, update task statuses, attach files to tasks, and receive notifications for task updates. This application utilizes several AWS services, including **RDS**, **Lambda**, **API Gateway**, **CloudWatch**, **SQS**, **Cognito**, and **S3** to provide a fully functional, scalable, and secure task management solution.
+
+## **Frontend Overview**
+
+The **frontend** of the **Task Management System** is built using **Next.js** and **TypeScript**. It provides a dynamic, responsive, and user-friendly interface for interacting with the backend services deployed on AWS. The frontend enables users to securely sign up, log in, create and manage tasks, and attach files, with a smooth and modern user experience.
+
+- **Frontend Framework**: Next.js
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS (for responsive and modern UI)
+- **Authentication**: AWS Cognito (for user authentication)
+- **API Integration**: Connected to the backend API Gateway via RESTful API calls
+
+### **Key Features in the Frontend**
+1. **Task Management**:
+   - Create, update, delete, and view tasks with relevant details like title, description, due date, and priority.
+   - Attach files to tasks via **Amazon S3** integration.
+
+2. **User Authentication**:
+   - Secure sign-up and login flow using **Amazon Cognito**.
+   
+3. **Responsive Design**:
+   - Mobile-first, responsive design using **Tailwind CSS**.
 
 ## **Project Objectives**
 
@@ -20,23 +41,6 @@ The **Task Management System** is a web-based application designed and implement
 - **Leverage serverless computing** for backend logic and API management via **Lambda** and **API Gateway**.
 - **Monitor application performance** and handle asynchronous tasks effectively using **CloudWatch** and **SQS**.
 - **Gain practical experience** in cloud architecture, security, and cost management on AWS.
-
-## **Key Features**
-
-1. **User Authentication and Management:**
-   - Secure sign-up, sign-in, and profile management using **Amazon Cognito**.
-
-2. **Task Management:**
-   - Ability to create, update, delete, and view tasks with relevant details such as **title**, **description**, **due date**, **priority**, and **attachments**.
-
-3. **File Attachments:**
-   - Support for uploading and attaching files to tasks using **Amazon S3**.
-
-4. **Notifications:**
-   - Asynchronous notifications (e.g., email) for task updates through **AWS SQS** and **Lambda** functions.
-
-5. **Monitoring and Logging:**
-   - Real-time tracking of application performance and issues using **AWS CloudWatch**.
 
 ## **AWS Services Utilized**
 
@@ -126,7 +130,32 @@ The **Task Management System** is a web-based application designed and implement
 5. **Deploy the Stack**: Run `cdk deploy` to deploy the backend resources on AWS.
 6. **Deploy Frontend**: Host the frontend using **S3** or **AWS Amplify** and update the API URL in the frontend code.
 
+## **Frontend Integration**
+
+- The frontend is built using **Next.js** and **TypeScript**.
+- The frontend interacts with the **backend API Gateway** to perform operations like task creation, viewing tasks, editing tasks, and uploading files to **S3**.
+- Use **environment variables** in your frontend to dynamically configure the backend API URL.
+
+### **Frontend API Integration Example**:
+
+```javascript
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
+
+async function createTask(taskData) {
+  const response = await fetch(`${API_BASE_URL}/tasks`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(taskData),
+  });
+
+  const data = await response.json();
+  return data;
+}
+```
 ## **Conclusion**
 
 This **Task Management System** allows users to manage tasks effectively using a web interface and integrates tightly with **AWS services** for authentication, file storage, backend processing, and monitoring. The use of **AWS CDK** provides a scalable and easily maintainable infrastructure, ensuring the system can grow as needed.
+
 
