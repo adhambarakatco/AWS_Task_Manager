@@ -1,4 +1,4 @@
-# **Task Management System on AWS**
+# **Task Management System on AWS using CDK**
 ## Deployed Website Link: 
 https://ec2-3-77-233-142.eu-central-1.compute.amazonaws.com
 # Landing page 
