@@ -2,25 +2,32 @@
 ## Deployed Website Link: 
 https://ec2-3-77-233-142.eu-central-1.compute.amazonaws.com
 # Landing page 
-![image](https://github.com/user-attachments/assets/fa9a5695-0f59-4de3-b506-d1d316fd4b7c)
-![image](https://github.com/user-attachments/assets/bd0c9119-9e56-4e1d-bf7a-e262c6b44be4)
+![Screenshot 2025-05-19 185839](https://github.com/user-attachments/assets/71812a64-7135-451b-a35d-89ef3bd53896)
+
+# Sign in
+![image](https://github.com/user-attachments/assets/cb195069-9f18-4908-8c49-08f0e598204b)
+
 # Sign up
-![image](https://github.com/user-attachments/assets/467043e2-fda1-4e73-ab3c-4769f9847208)
+![image](https://github.com/user-attachments/assets/16235b38-d331-46ff-9ef7-473ac4c29ddf)
+
 # Dashboard
-![image](https://github.com/user-attachments/assets/5849054c-b482-4d37-8ce9-0381996c8abe)
+![image](https://github.com/user-attachments/assets/ed68e9d4-db99-4cc4-9a74-26364958d439)
+
 # Create New Task
-![image](https://github.com/user-attachments/assets/2df55d80-ff52-4a53-829b-0a54ca6cd896)
+![image](https://github.com/user-attachments/assets/61b9d5de-f3ee-4ad6-9ecd-73f07f87b724)
+
 # Task Details
-![image](https://github.com/user-attachments/assets/a1f81727-2500-4ceb-aa3a-3a44da20c659)
+![image](https://github.com/user-attachments/assets/818c11ad-033a-49bc-99cd-e44d71a92384)
+
 # Edit Task
-![image](https://github.com/user-attachments/assets/e73c1bcb-3260-4df1-acb8-c4d43f5b153f)
+![image](https://github.com/user-attachments/assets/98f1fa59-f9f7-4e3e-bb00-f70fbcaff4ac)
 
 ## **Project Overview**
 
 The **Task Management System** is a web-based application designed and implemented using **Amazon Web Services (AWS)**. The system allows users to sign up, log in, create tasks, update task statuses, attach files to tasks, and receive notifications for task updates. This application utilizes several AWS services, including **RDS**, **Lambda**, **API Gateway**, **CloudWatch**, **SQS**, **Cognito**, and **S3** to provide a fully functional, scalable, and secure task management solution.
 
 ## **AWS Architecture Diagram**
-![Architecture](https://github.com/user-attachments/assets/37226259-95c4-40a2-b319-8c63accd78ce)
+![Architecture](https://github.com/user-attachments/assets/8a320c37-a0fd-4ea2-9c30-8f9ea1e7abd3)
 
 ## **Frontend Overview**
 
